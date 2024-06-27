@@ -1,0 +1,34 @@
+.pkm_container {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.title_container .title {
+    font-size: 3em;
+    color: #e33d33;
+    margin-right: .4em;
+}
+.title span {
+    color: #000; 
+}
+.pkm_card {
+    list-style: none;
+    text-transform: capitalize;
+}
+.pkm_content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 650px) {
+    .pkm_content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

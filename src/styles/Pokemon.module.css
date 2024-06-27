@@ -1,0 +1,113 @@
+.pokemon_details {
+    text-align: center;
+}
+.pokemon_details .pokemon_name {
+    font-size: 2.5em;
+    text-transform: capitalize;
+    background-color: #333;
+    color: #fff;
+    padding: .3em;
+    margin: .8em auto;
+    width: 700px;
+}
+.pokemon_details h3 {
+    margin: .6em auto;
+    font-size: 1.2em;
+}
+.pokemon_details .poke_type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.poke_moves {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.moves {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 700px;
+    margin-bottom: 2rem;
+}
+.moves span {
+    text-transform: capitalize;
+    margin-right: 10px;
+}
+.poke_data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .6em;
+}
+.poke_data h3 {
+    margin-top: 0;
+}
+.vertical_divisor {
+    height: 40px;
+    width: 1px;
+    border: 1px solid #e0e0e0;
+    margin:  0 10px;
+}
+.type {
+    padding: .6em 1em;
+    color: #fff;
+    background-color: #000;
+    margin-right: .5em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-transform: capitalize;
+    font-size: .8em;
+}
+.type_ghost {
+    background-color: #66b;
+}
+.type_poison {
+    background-color: #a59;
+}
+.type_grass {
+    background-color: #7c5;
+}
+.type_fire {
+    background-color: #f42;
+}
+.type_flying {
+    background-color: #89f;
+}
+.type_water {
+    background-color: #39f;
+}
+.type_bug {
+    background-color: #ab2;
+}
+.type_normal {
+    background-color: #aa9;
+}
+.type_electric {
+    background-color: #fc3;
+}
+.type_steel {
+    background-color: #aab;
+}
+.type_ice {
+    background-color: #6cf;
+}
+.type_ground {
+    background-color: #db5;
+}
+.type_psychic {
+    background-color: #f59;
+}
+.type_dark {
+    background-color: #754;
+}
+.type_dragon {
+    background-color: #76e;
+}
+.type_fairy {
+    background-color: #e9e;
+}
+.type_fighting {
+    background-color: #b54;
+}

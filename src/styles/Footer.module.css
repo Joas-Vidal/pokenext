@@ -1,0 +1,11 @@
+.footer_body {
+    text-align: center;
+    background: #333;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_body p {
+    color: white;
+}
